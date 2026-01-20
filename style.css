@@ -99,6 +99,10 @@
     font-weight: 600;
     margin-bottom: 0.5rem;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
   }
   
   .datetime {
@@ -322,4 +326,3 @@
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     }
   }
-  
